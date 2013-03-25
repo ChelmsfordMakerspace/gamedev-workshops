@@ -1,0 +1,10 @@
+D:\GameDevWorkshop\Setup\Setup\bin\Debug\Setup.exe
+D:\GameDevWorkshop\Setup\Setup\bin\Debug\Setup.pdb
+D:\GameDevWorkshop\Setup\Setup\obj\x86\Debug\Setup.Properties.Resources.resources
+D:\GameDevWorkshop\Setup\Setup\obj\x86\Debug\Setup.csproj.GenerateResource.Cache
+D:\GameDevWorkshop\Setup\Setup\obj\x86\Debug\Setup.exe
+D:\GameDevWorkshop\Setup\Setup\obj\x86\Debug\Setup.pdb
+D:\GameDevWorkshop\Setup\Setup\obj\x86\Debug\Setup.MainForm.resources
+D:\GameDevWorkshop\Setup\Setup\obj\x86\Debug\Setup.csprojResolveAssemblyReference.cache
+D:\GameDevWorkshop\Setup\Setup\bin\Debug\Setup.exe.config
+D:\GameDevWorkshop\Setup\Setup\bin\Debug\install.ico

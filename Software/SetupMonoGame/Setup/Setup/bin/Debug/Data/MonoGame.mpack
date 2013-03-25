@@ -1,0 +1,1011 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="">
+    
+    
+    
+    
+
+    
+    <head>
+        <meta id="CompatabilityMode" http-equiv="X-UA-Compatible" content="IE=edge" />
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="http://i1.codeplex.com/css/v20266/i1971239/StyleSheet.ashx" id="MasterCss" rel="stylesheet" type="text/css" />
+        <link rel="SHORTCUT ICON" href="http://www.codeplex.com/favicon.ico" />
+        <title>MonoGame - Write Once, Play Everywhere - Download&#58; MonoGame 3.0.1</title>
+        
+        <!--
+        Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code,
+        not by Microsoft.  See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.
+        -->
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.4.4.min.js" type="text/javascript"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.6/jquery-ui.min.js" type="text/javascript"></script>
+        
+        
+    <style type="text/css">.SideBar, .SideBarPadding{display:none;}.MainContent{width:auto;}.SiteContentTable{width:100%;}</style>
+    <style id="ProjectStyles" type="text/css">
+        .SiteHeader, .SiteHeaderLeft {
+            height:45px !important;
+            overflow:hidden;
+        }
+        .SiteContent 
+        {
+            padding: 0 0 1em 0;
+            margin-top:0;
+            min-height:225px;
+            border-right: 1px solid lightgrey;
+            border-left: 1px solid lightgrey;
+            border-bottom: 1px solid lightgrey;
+        }
+        .IE table.MinWidthContent
+        {
+	        table-layout: auto !important;	
+        }
+    </style>
+    
+    
+    <style id="ctl00_ctl00_Header_Header_ProjectReleasesStyles" type="text/css">
+        .ProjectReleasesSidebar
+        {
+            max-height: 16em;
+            overflow: auto;
+            border-bottom: 1px #D1D2D5 solid;
+            margin-bottom: 10px;
+        }
+        .IE6 .ProjectReleasesSidebar
+        {
+            height: 8em;
+            width: 19em;
+        }
+        .IE6 .ProjectReleasesSidebar .Scrollable
+        {
+            width: 19em;
+            overflow: auto;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+    </style>
+
+    
+    
+    <meta id="WTProjectName" name="WT.pi" content="xnatouch"/>
+    
+
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href='http://monogame.codeplex.com/rsd' />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href='/wlwmanifest.xml' />
+    
+    
+        <link rel="alternate" type="application/rss+xml" title="MonoGame&#32;-&#32;Write&#32;Once,&#32;Play&#32;Everywhere" url="http://monogame.codeplex.com/project/feeds/rss"/>
+    
+        
+        <link rel="alternate" type="application/rss+xml" title="MonoGame&#32;-&#32;Write&#32;Once,&#32;Play&#32;Everywhere&#32;-&#32;Discussions" url="http://monogame.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fforum%2fmonogame"/>
+        
+        <link rel="alternate" type="application/rss+xml" title="MonoGame&#32;-&#32;Write&#32;Once,&#32;Play&#32;Everywhere&#32;-&#32;Issue&#32;Tracker" url="http://monogame.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fworkitem%2fmonogame"/>
+        
+        <link rel="alternate" type="application/rss+xml" title="MonoGame&#32;-&#32;Write&#32;Once,&#32;Play&#32;Everywhere&#32;-&#32;Downloads" url="http://monogame.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2frelease%2fmonogame"/>
+        <link rel="alternate" type="application/rss+xml" title="MonoGame&#32;-&#32;Write&#32;Once,&#32;Play&#32;Everywhere&#32;-&#32;Reviews" url="http://monogame.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2freview%2fmonogame"/>
+        
+    
+        <link rel="alternate" type="application/rss+xml" title="MonoGame&#32;-&#32;Write&#32;Once,&#32;Play&#32;Everywhere&#32;-&#32;Source&#32;code" url="http://monogame.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fsourcecontrol%2fmonogame"/>
+        <link rel="alternate" type="application/rss+xml" title="MonoGame&#32;-&#32;Write&#32;Once,&#32;Play&#32;Everywhere&#32;-&#32;Wiki" url="http://monogame.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fwiki%2fmonogame"/>
+    
+    </head>
+    
+    <body>
+        <script src="http://i1.codeplex.com/scripts/v20266/i7/ScriptLoader.ashx" type="text/javascript"></script>
+        <form id="aspnetForm" autocomplete="off" method="POST" enctype="multipart/form-data">
+            <input name="__RequestVerificationToken" type="hidden" value="Xf11euFPcos7Xx89S9VqhSnJtHvk-rscFYBPysT8m-ueQylO-3hFk-J1IbzOmCZccuTDC7Euceb9xXa6n3UpDLBD-wtqL-EG6aLpZ2Q9eyhdp36Gg069MseSa6Aq4d3NmjgzMg2" /><input name="__RequestVerificationToken2" type="hidden" value="__RequestVerificationToken219a07d70-f138-471e-823f-ec3ccd58f391" />
+            
+            <div id="UpdateProgressPanel" class="loading_animation" style="display:none;">
+                <div class="row">
+                    <h2 class="anim_h2">
+                        <span id="UpdateProgressText">Updating...</span>
+                        <span id="animatedLoadingIconContainer">
+                            <img id="animatedLoadingIcon" src="http://i3.codeplex.com/Images/v20266/loading_animation.gif" class="anim_img"/>
+                        </span>
+                    </h2>
+                </div>
+            </div>
+            
+            <div style="display:none;">
+                
+                    <script type="text/javascript">
+                        $loadScript("https://siterecruit.comscore.com/sr/codeplex/broker.js");
+                    </script>
+
+                
+                
+                <img id="BlankImage" style="width:0;height:0;" src="http://i3.codeplex.com/Images/v20266/blank.png" onload="self.logoImageLoaded=true;"/>
+
+                <script language="javascript" type="text/javascript">
+                    var date = new Date();
+                    var timezoneOffset = date.getTimezoneOffset() / 60 * -1;
+                    var timezoneOffsetCookie = getCookie("TimezoneOffset");
+                    var firstTimeSetTimezoneCookie = false;
+
+                    if (timezoneOffsetCookie == null || timezoneOffsetCookie != timezoneOffset) {
+                        firstTimeSetTimezoneCookie = true;
+                        document.cookie = "TimezoneOffset=" + timezoneOffset + '; domain=.codeplex.com;expires=Tue, 18 Mar 2014 16:05:17 UTC';
+                    }
+                </script>
+                
+                
+                    <noscript>
+                        <a href="http://www.omniture.com" title="Web Analytics"><img src="http://msstonojstemp.112.2O7.net/b/ss/msstonojstemp/1/H.20.2--NS/0" height="1" width="1" border="0" alt="" /></a>
+                    </noscript>
+                
+            </div>
+            
+            <div id="header">
+                <div id="header_wrap" class="row">
+                    <p id="logo"><a href="http://www.codeplex.com">Code<span class="semi">Plex</span></a><span id="tagline">Project Hosting for Open Source Software</span></p>
+                    
+
+<ul id="nav">
+
+    <li><a href="/site/register/new" id="registerLink" class="ZoomFix">Register</a></li>
+    <li ><a class="SignInLink" href="https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fmonogame.codeplex.com%2freleases%2fview%2f102870" id="signInLink">Sign In</a></li>
+  
+    <li class="last"><a class="rss_site_icon" href="http://www.codeplex.com/site/feeds/rss" type="application/rss+xml" rel="Alternate" title="CodePlex Site Activity"></a></li>
+</ul>
+                    <input id="searchsite" name="searchsite" maxlength="500" type="text" value="" /><span id="search_mag"><a id="submitSearch" name="submitSearch" class="magnify" title="Search" href="#"></a></span>
+                    <script>
+	$(document).ready(function() {
+    var searchButton = $('#submitSearch'),
+        searchBar = $('#searchsite');
+
+    // Register our own handler for the search event while we wait for the SearchBox script to load.
+    searchButton.bind('click.backupSearchBox', doProjectSearch);
+    searchBar.bind('keypress.backupSearchBox', function(e) { if ($keyCode(e) === 13) { doProjectSearch(); return false; } });
+
+    function cleanupSearchEvents() {
+        // If the SearchBox was loaded, unregister our handlers.
+        if (epx_loaded) {
+            searchButton.unbind('.backupSearchBox');
+            searchBar.unbind('.backupSearchBox');
+        }
+    }
+
+    $loadScript('http://i4.services.social.microsoft.com/search/Widgets/SearchBox.jss?appid=1000&scopeid=1&boxId=searchsite&btnId=submitSearch&watermark=Search%20all%20projects&overrideWatermark=true&searchLocation=%2fsite%2fsearch&allowEmptySearch=true&focusOnInit=False&minimumTermLength=3', cleanupSearchEvents);
+})
+function doProjectSearch() {
+    
+    var url = '/site/search';
+
+    //If search term is not same as watermark
+    if($('#searchsite').val() != 'Search all projects')    
+    {        
+        url = url + '?query=' + encodeURIComponent($('#searchsite').val());
+    }
+
+    
+    var callback = '';
+    if (callback.length > 0 && eval('typeof ' + callback) != 'undefined')
+        url += eval(callback + '()');
+
+    window.location.href = url;
+    return false;
+}
+</script>
+                </div>
+            </div>
+            
+            <div id="wrap">
+                
+    <div id="sub_heading" class="row">
+        
+        <div id="ProjectHeader">
+            <div id="project_title_row" class="row">
+                <div id="project_logo">
+                    
+    
+    <a href="http://monogame.codeplex.com/"><img class="logo_top" src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=monogame&DownloadId=331456&Build=20266" alt="MonoGame&#32;-&#32;Write&#32;Once,&#32;Play&#32;Everywhere" /></a>
+    <div class="clear"></div>
+    <h1 class="text_bottom"><a href="http://monogame.codeplex.com/" id="ProjectTitle2"><div>MonoGame - Write Once, Play Everywhere</div></a></h1>
+
+                </div>
+                <div id="project_title_links">
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div id="ProjectDetailsDiv">
+            
+        </div>
+		<div class="clear"></div>
+        
+
+<ul id="page_box_links">
+	<li id="homeTabCell" style="width: 63px;"><a id="homeTab" href="http://monogame.codeplex.com/" class="box_home">home</a><div></div></li>
+    
+	<li id="releasesTabCell" style="width:112px;"><a id="releasesTab" href="http://monogame.codeplex.com/releases/view/102870" class="downloads_active">downloads</a><div></div></li>
+    
+    <li id="documentationTabCell" style="width:143px;"><a id="documentationTab" href="http://monogame.codeplex.com/documentation" class="box_documentation">documentation</a><div></div></li>
+    
+	<li id="discussionTabCell" style="width:112px;"><a id="discussionTab" href="http://monogame.codeplex.com/discussions" class="box_discussions">discussions</a><div></div></li>
+    
+	<li id="workItemsTabCell" style="width:124px;"><a id="workItemsTab" href="http://monogame.codeplex.com/workitem/list/basic" class="box_issue">issue tracker</a><div></div></li>
+    
+	<li id="peopleTabCell" style="width:71px;"><a id="peopleTab" href="http://monogame.codeplex.com/team/view" class="box_people">people</a><div></div></li>
+	<li id="licenseTabCell" style="width:96px; margin-right:15px;"><a id="licenseTab" href="http://monogame.codeplex.com/license" class="box_license">license</a><div></div></li>
+    <span class="stretch"></span>
+</ul>
+		    <div class="clear"></div>
+            
+    <div id="download_sub_menu">
+        
+
+<div>
+    
+    <div id="actionBar" class="action_bar">
+        <ul id="actionBar_ul" class="actionBar_sublinks subtab_right" style="vertical-align: middle;">
+
+            
+
+                <li id="li_actionbar_subscribe" data-action-id="actionbar_subscribe" data-action-type="PopUp" class="actionBar_sublinks" data-options-id="f612091c-cc20-4fbd-a24f-e2dfa2225782">
+                
+                    <script class="options" defer="defer" id="f612091c-cc20-4fbd-a24f-e2dfa2225782" type="application/json">{}</script> 
+                    
+                    <div class="actionBar_custom_content">
+
+<div id="rssHoverDiv" class="HoverPanel LeftHoverWidth" style="display: none">
+        <ul id="3_FeedsPanel" class="RssFeedsPanel">
+            <li>
+                <a id="ProjectRssLink" href="http://monogame.codeplex.com/project/feeds/rss" class="ArrowSmall NoUnderline">All Project Updates</a>
+            </li>
+            
+            <li>
+                <a id="DiscussionRssLink" href="http://monogame.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fforum%2fmonogame" class="ArrowSmall NoUnderline">Discussions</a>
+            </li>
+            
+            <li>
+                <a id="IssueTrackerRssLink" href="http://monogame.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fworkitem%2fmonogame" class="ArrowSmall NoUnderline">Issue Tracker</a>
+            </li>
+            
+            <li>
+                <a id="ReleasesRssLink" href="http://monogame.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2frelease%2fmonogame" class="ArrowSmall NoUnderline">Downloads</a>
+            </li>
+            <li>
+                <a id="ReviewsRssLink" href="http://monogame.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2freview%2fmonogame" class="ArrowSmall NoUnderline">Reviews</a>
+            </li>
+            
+            <li>
+                <a id="SourceControlRssLink" href="http://monogame.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fsourcecontrol%2fmonogame" class="ArrowSmall NoUnderline">Source Code</a>
+            </li>
+            <li>
+                <a id="WikiRssLink" href="http://monogame.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fwiki%2fmonogame" class="ArrowSmall NoUnderline">Wiki &amp; Documentation</a>
+            </li>
+        </ul>
+</div></div>
+
+                    <a href="#" id="actionbar_subscribe" title="Subscribe to project updates in RSS feeds." class="action_bar_item_link">
+                        <img id="img_actionbar_subscribe" class="action_bar_item_image" src="http://i3.codeplex.com/Images/v20266/actionbar_subscribe.png" style="vertical-align: middle" />
+                        Subscribe
+                    </a>
+
+                </li>
+
+            
+        </ul>
+    </div>
+</div>
+        <div class="clear"></div>
+    </div>
+
+        
+
+    </div>
+    
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            
+            downloadFile(null, false, false); 
+            
+
+            if ($('#rateRelease').length === 1 && $getQuerystring("RateReview").toLowerCase() === "true") {
+                ShowRatingsLightBox();
+            }
+        });
+
+    
+    </script>
+
+    <div id="left_column_downloads">
+                    <div id="ContentDiv" class="Content StandardMarginTop">
+                        <div id="ReleasesContentArea">
+
+                    
+                        <div id="ErrorPanel" class="Error" style="clear: both; font-size: 1.25em; display:none;"></div>
+                    
+                        <h1 class="page_title wordwrap">MonoGame 3.0.1</h1>
+                    
+
+
+
+<script language="javascript">
+
+    $(function() {
+        $('#BeTheFirstToReviewAnchor').click(function() {
+            ShowRatingsLightBox();
+            return false;
+        });
+    });
+
+</script>
+
+<table id="ReleaseMetaDataBox" cellspacing="0" cellpadding="0" border="0" style="border: 1px solid #c0c0c0; margin-top: 10px;">
+    <tr>
+        <td valign="top" style="border-right: 1px solid #c0c0c0;">
+            <div id="metadataLeft" style="width: 250px;">
+            
+                <div class="metadataRow">
+                    <span class="metadataItemHeader">Rating:</span>
+                
+                    <span id="NoReviewsLabel">No reviews yet</span>
+                    
+                </div>
+                
+                <div class="metadataRow">
+                    <span id="DownloadsCountLabel" class="metadataItemHeader">Downloads:</span>
+                    <span id="DownloadCount">3652</span>
+                </div>
+                
+            </div>
+        </td>
+        <td valign="top">
+            <div id="metadataRight" style="width: 250px;">
+                
+                <div class="metadataRow">
+                    <span class="metadataItemHeader">Released:</span>
+                    <span id="ReleaseDateLiteral" class="smartDate dateOnlyNoShort" title="3/3/2013 7:00:00 AM" LocalTimeTicks="1362322800">Mar 3, 2013</span>
+                </div>
+                
+                <div class="metadataRow">
+                    <span class="metadataItemHeader">Updated:</span>
+                        <span id="ReleaseModifierDateLiteral" class="smartDate dateOnlyNoShort" title="3/5/2013 9:01:57 PM" LocalTimeTicks="1362546117">Mar 5, 2013</span>
+                        by <a id="UpdatedByUserAnchor" href="http://www.codeplex.com/site/users/view/dellis1972">dellis1972</a>
+                </div>
+                <div class="metadataRow">
+                    <span id="DevStatusLabel" class="metadataItemHeader">Dev status:</span> 
+                    <span id="DevStatusValue">
+                    Stable
+                        <img id="DevStatusHelpImage" style="padding-left:.5em;vertical-align: bottom;" src="http://i3.codeplex.com/Images/v20266/HelpIcon.png" title="Stable: This software is believed to be ready for use" />
+                    
+                    </span>
+                </div>
+                
+            </div>
+        </td>
+    </tr>
+</table>
+<script type="text/javascript">
+    //function isPlatformInstallerAgent() {
+    //    return navigator.userAgent.toLowerCase().indexOf('platform-installer/') != -1;
+    //}
+
+    function downloadFile(link, userClick, alreadyLoaded) {
+        if (userClick)
+            return $.release.fn.downloadFile(link);
+
+        if (!alreadyLoaded) {
+            var downloadId = $getQuerystring("DownloadId");
+            if (!downloadId)
+                downloadId = getIdFromFragment();
+            if (downloadId) {
+                var clickOncePath = $("a[fileId='" + downloadId + "']").attr('d:clickOncePath');
+                var clickOnceUrl = 'http://monogame.codeplex.com/downloads/get/clickOnce/*REPLACE*'.replace('downloads/get/clickOnce/*REPLACE*', 'downloads/get/clickOnce/' + clickOncePath);
+                var fileUrl = 'http://monogame.codeplex.com/downloads/get/0'.replace('downloads/get/0', 'downloads/get/' + downloadId);
+                
+                window.location = clickOncePath ? clickOnceUrl : fileUrl;
+            }
+        }
+
+        return false;
+    }
+
+    function getIdFromFragment() {
+        var path = document.location.toString();
+
+        if (path.match('#')) {
+            var fileID = '#' + path.split('#')[1];
+
+            if (fileID.toLowerCase().indexOf("downloadid=") > 0) {
+                fileID = fileID.split("=");
+
+                if (fileID[1].length > 0) {
+                    return fileID[1];
+                }
+            }
+        }
+    }
+</script>
+<div class="ReleaseNotesDiv">
+    <a id="ReleaseFiles"></a>
+    
+        <div id="recommendedFileDiv">
+            <h3>Recommended Download</h3>
+            
+
+<div id="FileListItem0" class="FileListItemDiv">
+    <img id="fileImage0" class="FileTypeImage" style="vertical-align:middle;" src="http://i3.codeplex.com/Images/v20266/RuntimeBinary.gif" alt="Application" />
+    <a class="FileNameLink" href="http://monogame.codeplex.com/downloads/get/632970" id="fileDownload0" tabIndex="9">MonoGame 3.0.1 for Visual Studio 2010&#47;2012</a>
+    <div>
+        <span id="fileItemInfo0" class="SubText">
+            application,
+            7673K, uploaded
+            <span class="smartDate dateOnly" title="3/4/2013 8:18:10 PM" LocalTimeTicks="1362457090">Mar 4</span>
+             -
+            2645 downloads
+        </span>
+    </div>
+</div>
+        </div>
+        
+        <div id="AllOtherFilesText">
+            <h3>Other Available Downloads</h3>
+        </div>
+        
+
+<div id="FileListItem1" class="FileListItemDiv">
+    <img id="fileImage1" class="FileTypeImage" style="vertical-align:middle;" src="http://i3.codeplex.com/Images/v20266/RuntimeBinary.gif" alt="Application" />
+    <a class="FileNameLink" href="http://monogame.codeplex.com/downloads/get/632971" id="fileDownload1" tabIndex="9">MonoGame 3.0.1 for MonoDevelop 3.0</a>
+    <div>
+        <span id="fileItemInfo1" class="SubText">
+            application,
+            3850K, uploaded
+            <span class="smartDate dateOnly" title="3/3/2013 6:33:50 PM" LocalTimeTicks="1362364430">Mar 3</span>
+             -
+            420 downloads
+        </span>
+    </div>
+</div>
+
+<div id="FileListItem2" class="FileListItemDiv">
+    <img id="fileImage2" class="FileTypeImage" style="vertical-align:middle;" src="http://i3.codeplex.com/Images/v20266/RuntimeBinary.gif" alt="Application" />
+    <a class="FileNameLink" href="http://monogame.codeplex.com/downloads/get/632972" id="fileDownload2" tabIndex="9">MonoGame 3.0.1 for Xamarin Studio</a>
+    <div>
+        <span id="fileItemInfo2" class="SubText">
+            application,
+            3850K, uploaded
+            <span class="smartDate dateOnly" title="3/3/2013 6:33:50 PM" LocalTimeTicks="1362364430">Mar 3</span>
+             -
+            587 downloads
+        </span>
+    </div>
+</div>
+</div>
+<div class="ReleaseNotesDiv">
+    <h3>Release Notes</h3>
+    <div id="ReleaseNotes" class="WikiContent">
+        <div class="wikidoc">This is a small hotfix release. The main purpose is to re-target the Android version of MonoGame to link to the assemblies released as part of the Xamarin 2.0 release. We have also provided a .mpack which is compatible with Xamarin Studio, the old MonoDevelop 3.0 .mpack is also provided.<br /><br />It also includes the following fixes:<br />
+<ul><li>Fix template error</li>
+<li>Fix offsetInBytes parameter in IndexBuffer/VertexBuffer SetData.</li>
+<li>Fixes the scale applied on the origin in SpriteBatch</li>
+<li>Fixed render targets on WP8</li>
+<li>Removed minVertexIndex Exception</li>
+<li>Fixed some threading issues on iOS</li>
+<li>Use generic link for opening store on iOS</li>
+<li>Fix Matrix::Transpose</li>
+<li>Fixed vertexOffset in DrawUserIndexedPrimitives in GL</li>
+<li>Keys.RightControl/RightShift Support for WinRT</li>
+<li>Dispose in ShaderProgramCache</li>
+<li>IsRunningSlowly Fix</li></ul></div><div class="ClearBoth"></div>
+    </div>
+</div>
+<div id="ReviewsPanel">
+    <a id="ReviewsAnchor"></a>
+    <div id="ReviewsDivisionHeader"><h2>Reviews for this release</h2></div>
+    <div id="ReviewButton">
+    
+            <input type="button" id="RateReleaseButton" class="ok" value="Review this release" onclick="location.href='https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fmonogame.codeplex.com%2freleases%2fview%2f102870%3fRateReview%3dtrue'" />
+        
+        <div class="clear"></div>
+    </div>
+    <div id="Reviews">
+    No reviews yet for this release. (Previous release: 4.1 stars out of five with 10 ratings and 9 reviews)
+    
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    $("#SaveRateButton").click(function (e) {
+        SaveRating(e);
+        return false;
+    })
+</script>
+<div id="ClickOnceOperaPanel" class="modal" style="display: none;">
+    <div class="row">
+        <h2>Opera does not support ClickOnce <a href="javascript:return false;" class="close">X</a></h2>
+    </div>
+    <div class="modal_info">
+        <div class="Body">
+            To install this application, save it and then open it.  Opening it directly from Opera will not work correctly.
+        </div>
+        <div class="modal_buttons">
+            <input type="button" class="ok" onclick="operaContinue();" value="Ok" />
+        </div>    
+        <div class="ClearBoth"></div>
+    </div>
+</div>
+                    </div>
+        </div>
+    </div>
+
+        
+<div id="right_sidebar_downloads">
+    
+
+<script type="text/javascript">
+    function toggleView(link) {
+        setReleaseClasses(['#releasedTypeLink', '#plannedTypeLink', '#hiddenTypeLink']);
+        hideReleaseDivs(['#releasedList', '#plannedList', '#hiddenList']);
+        var jLink = $(link);
+        jLink.addClass('ProjectReleaseHeaderViewSelectedLink');
+        $('#' + jLink.attr('d:associatedDiv')).show();
+    }
+    function hideReleaseDivs(args) {
+        for (i = 0; i < args.length; i++)
+            $(args[i]).hide();
+    }
+    function setReleaseClasses(args) {
+        for (i = 0; i < args.length; i++)
+            $(args[i]).removeClass('ProjectReleaseHeaderViewSelectedLink').addClass('ProjectReleaseHeaderViewLink');
+    }
+</script>
+
+    <h2>Other Downloads</h2>
+    <div id="HeaderLinksPanel" class="ProjectReleasesHeaderViewLinks">
+        <a id="releasedTypeLink" href="#" onclick="toggleView(this);return false;" class="ProjectReleaseHeaderViewSelectedLink" d:associatedDiv="releasedList">Released</a> |
+        <a id="plannedTypeLink" href="#" onclick="toggleView(this);return false;" class="ProjectReleaseHeaderViewLink" d:associatedDiv="plannedList">Planned</a>
+        
+    </div>
+    <div id="ProjectReleasesSidebarPanel" class="ProjectReleasesSidebar">
+        <div id="ReleasesListDiv" class="Scrollable">
+            <div id="releasedList" >
+            
+<table cellpadding="0" cellspacing="0" width="100%">
+
+    <tr>
+        <td class="DefaultCellIcon">
+            
+            <img id="DefaultReleaseImage" src="http://i3.codeplex.com/Images/v20266/defaultReleaseStar.gif" title="Recommended Release" />
+            
+        </td>
+        <td class="ReleaseCell">
+            <a id="ReleaseLinkStable0" 
+               class="SelectedRelease" 
+               title="Recommended Release: MonoGame&#32;3.0.1"
+               >MonoGame 3.0.1</a>
+            <div>
+                <span id="releaseListReleaseDateStable0" class="smartDate dateOnlyNoShort" title="3/3/2013 7:00:00 AM" LocalTimeTicks="1362322800">Mar 3, 2013</span>, 
+                Stable
+            </div>
+            <div>
+                
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="DefaultCellIcon">
+            
+        </td>
+        <td class="ReleaseCell">
+            <a id="ReleaseLinkStable1" 
+               class="ReleaseLink" 
+               title="MonoGame&#32;3.0"
+                
+                href="http://monogame.codeplex.com/releases/view/100041" 
+               >MonoGame 3.0</a>
+            <div>
+                <span id="releaseListReleaseDateStable1" class="smartDate dateOnlyNoShort" title="1/21/2013 7:00:00 AM" LocalTimeTicks="1358780400">Jan 21, 2013</span>, 
+                Stable
+            </div>
+            <div>
+                <span id="releaseListStarStable1RatingContainer" class="RatingStarContainer" title="4.1 star rating"><span id="releaseListStarStable1Rating_Star_0" class="RatingStar FilledRatingStarMuted" d:rating="1" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable1Rating_Star_1" class="RatingStar FilledRatingStarMuted" d:rating="2" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable1Rating_Star_2" class="RatingStar FilledRatingStarMuted" d:rating="3" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable1Rating_Star_3" class="RatingStar FilledRatingStarMuted" d:rating="4" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable1Rating_Star_4" class="RatingStar HalfRatingStarMuted" d:rating="5" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable1ratingName"></span><input id="releaseListStarStable1currentRating" type="hidden" value="4.1" /></span>
+                
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="DefaultCellIcon">
+            
+        </td>
+        <td class="ReleaseCell">
+            <a id="ReleaseLinkStable2" 
+               class="ReleaseLink" 
+               title="MonoGame&#32;3.0&#32;&#40;BETA&#41;"
+                
+                href="http://monogame.codeplex.com/releases/view/96421" 
+               >MonoGame 3.0 &#40;BETA&#41;</a>
+            <div>
+                <span id="releaseListReleaseDateStable2" class="smartDate dateOnlyNoShort" title="10/17/2012 7:00:00 AM" LocalTimeTicks="1350482400">Oct 17, 2012</span>, 
+                Beta
+            </div>
+            <div>
+                <span id="releaseListStarStable2RatingContainer" class="RatingStarContainer" title="5 star rating"><span id="releaseListStarStable2Rating_Star_0" class="RatingStar FilledRatingStarMuted" d:rating="1" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable2Rating_Star_1" class="RatingStar FilledRatingStarMuted" d:rating="2" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable2Rating_Star_2" class="RatingStar FilledRatingStarMuted" d:rating="3" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable2Rating_Star_3" class="RatingStar FilledRatingStarMuted" d:rating="4" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable2Rating_Star_4" class="RatingStar FilledRatingStarMuted" d:rating="5" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable2ratingName"></span><input id="releaseListStarStable2currentRating" type="hidden" value="5" /></span>
+                
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="DefaultCellIcon">
+            
+        </td>
+        <td class="ReleaseCell">
+            <a id="ReleaseLinkStable3" 
+               class="ReleaseLink" 
+               title="MonoGame&#32;2.5.1"
+                
+                href="http://monogame.codeplex.com/releases/view/89706" 
+               >MonoGame 2.5.1</a>
+            <div>
+                <span id="releaseListReleaseDateStable3" class="smartDate dateOnlyNoShort" title="6/18/2012 7:00:00 AM" LocalTimeTicks="1340028000">Jun 18, 2012</span>, 
+                Stable
+            </div>
+            <div>
+                <span id="releaseListStarStable3RatingContainer" class="RatingStarContainer" title="5 star rating"><span id="releaseListStarStable3Rating_Star_0" class="RatingStar FilledRatingStarMuted" d:rating="1" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable3Rating_Star_1" class="RatingStar FilledRatingStarMuted" d:rating="2" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable3Rating_Star_2" class="RatingStar FilledRatingStarMuted" d:rating="3" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable3Rating_Star_3" class="RatingStar FilledRatingStarMuted" d:rating="4" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable3Rating_Star_4" class="RatingStar FilledRatingStarMuted" d:rating="5" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable3ratingName"></span><input id="releaseListStarStable3currentRating" type="hidden" value="5" /></span>
+                
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="DefaultCellIcon">
+            
+        </td>
+        <td class="ReleaseCell">
+            <a id="ReleaseLinkStable4" 
+               class="ReleaseLink" 
+               title="MonoGame&#32;2.5"
+                
+                href="http://monogame.codeplex.com/releases/view/84983" 
+               >MonoGame 2.5</a>
+            <div>
+                <span id="releaseListReleaseDateStable4" class="smartDate dateOnlyNoShort" title="3/29/2012 7:00:00 AM" LocalTimeTicks="1333029600">Mar 29, 2012</span>, 
+                Stable
+            </div>
+            <div>
+                
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="DefaultCellIcon">
+            
+        </td>
+        <td class="ReleaseCell">
+            <a id="ReleaseLinkStable5" 
+               class="ReleaseLink" 
+               title="MonoGame&#32;2.1"
+                
+                href="http://monogame.codeplex.com/releases/view/78301" 
+               >MonoGame 2.1</a>
+            <div>
+                <span id="releaseListReleaseDateStable5" class="smartDate dateOnlyNoShort" title="12/7/2011 7:00:00 AM" LocalTimeTicks="1323270000">Dec 7, 2011</span>, 
+                Stable
+            </div>
+            <div>
+                
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="DefaultCellIcon">
+            
+        </td>
+        <td class="ReleaseCell">
+            <a id="ReleaseLinkStable6" 
+               class="ReleaseLink" 
+               title="MonoGame&#32;2.0&#32;Framework"
+                
+                href="http://monogame.codeplex.com/releases/view/75847" 
+               >MonoGame 2.0 Framework</a>
+            <div>
+                <span id="releaseListReleaseDateStable6" class="smartDate dateOnlyNoShort" title="10/27/2011 7:00:00 AM" LocalTimeTicks="1319724000">Oct 27, 2011</span>, 
+                Stable
+            </div>
+            <div>
+                <span id="releaseListStarStable6RatingContainer" class="RatingStarContainer" title="4 star rating"><span id="releaseListStarStable6Rating_Star_0" class="RatingStar FilledRatingStarMuted" d:rating="1" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable6Rating_Star_1" class="RatingStar FilledRatingStarMuted" d:rating="2" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable6Rating_Star_2" class="RatingStar FilledRatingStarMuted" d:rating="3" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable6Rating_Star_3" class="RatingStar FilledRatingStarMuted" d:rating="4" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable6Rating_Star_4" class="RatingStar EmptyRatingStar" d:rating="5" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable6ratingName"></span><input id="releaseListStarStable6currentRating" type="hidden" value="4" /></span>
+                
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="DefaultCellIcon">
+            
+        </td>
+        <td class="ReleaseCell">
+            <a id="ReleaseLinkStable7" 
+               class="ReleaseLink" 
+               title="Version&#32;0.7&#32;Source"
+                
+                href="http://monogame.codeplex.com/releases/view/36738" 
+               >Version 0.7 Source</a>
+            <div>
+                <span id="releaseListReleaseDateStable7" class="smartDate dateOnlyNoShort" title="12/2/2009 7:00:00 AM" LocalTimeTicks="1259766000">Dec 2, 2009</span>, 
+                Stable
+            </div>
+            <div>
+                <span id="releaseListStarStable7RatingContainer" class="RatingStarContainer" title="5 star rating"><span id="releaseListStarStable7Rating_Star_0" class="RatingStar FilledRatingStarMuted" d:rating="1" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable7Rating_Star_1" class="RatingStar FilledRatingStarMuted" d:rating="2" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable7Rating_Star_2" class="RatingStar FilledRatingStarMuted" d:rating="3" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable7Rating_Star_3" class="RatingStar FilledRatingStarMuted" d:rating="4" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable7Rating_Star_4" class="RatingStar FilledRatingStarMuted" d:rating="5" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseListStarStable7ratingName"></span><input id="releaseListStarStable7currentRating" type="hidden" value="5" /></span>
+                
+            </div>
+        </td>
+    </tr>
+
+</table>    
+
+            </div>
+            <div id="plannedList" style="display:none;">
+            
+<div style="text-align:center; margin-bottom: 20px;">
+    <span id="NoReleaseErrorLabelPlanning" class="NoReleaseErrorLabel">There are no Planned releases for this project.</span>
+</div>
+
+            </div>
+            
+        </div>
+    </div>
+
+<div id="LoungeAdsDiv">
+	<div id="Ad1" class="lqm_ad" style="width: 300px; height: 250px; margin: 0px auto;" lqm_site="C-monogame" 
+        lqm_format="300x250"  lqm_tags="XNA%2cgame%20development%2ciphone%2cmono%2cMonoTouch%2cwindows%20phone%2cWindows%20Phone%207%2cWindows%20Phone%207.5%2cWindows%20Phone%207.8%2cWindows%20Phone%208" >
+	</div>
+    <p id="adzerk_by" class="LoungeAdsBottomLinks">
+        <a href="http://developermedia.com/" target="_blank">Ads by Developer Media</a>
+        
+    </p>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.getScript('http://cdn.lakequincy.com/m.min.js', function () {
+            $.LqmAds();
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    function saveSubscriptionDataDirectly(type) {
+        return saveSubscriptionDataCore(type, false);
+    }
+
+    function saveSubscriptionData() {
+        var callingComponent = $('#subscriptionSettings #callingComponent').val();
+        closeSubscriptionDialog();
+
+        var type = $('input[name=EmailSubscriptionTypeList]:checked').val();
+        if (type === '')
+            return false;
+        var removeIndividual = $('input[name=StopNotificationsCheckBox]:checked').val();
+        if (removeIndividual === undefined)
+            removeIndividual = false;
+        $('#subscriptionSettings').remove();
+        return saveSubscriptionDataCore(type, removeIndividual, callingComponent);
+    }
+
+    function saveSubscriptionDataCore(type, removeIndividual, callingComponent) {
+
+        var isSubscribed = $('#SubscribeCheckBox').is(':checked') && $('#SubscribeCheckBox').is(':enabled');
+        CodePlex.UpdateProgress.show();
+        $('#subscriptionContent').load('http://monogame.codeplex.com/subscriptions/Release/save',
+                                       { isIndividualSubscribed: isSubscribed, deliveryStatus: type, displayType: 'Full', removeIndividualSubscriptions: removeIndividual },
+                                       function () {
+                                           CodePlex.UpdateProgress.hide();
+                                           if (callingComponent) {
+                                               $('#actionBar_placeholder').load('http://monogame.codeplex.com/workitem/ActionBar',
+                                                   { activeView: 'AdvancedView' });
+                                           }
+                                       });
+        if (type === '1' || type === '2') {
+            $('#unsubscribeSection').show();
+        }
+        else {
+            $('#unsubscribeSection').hide();
+            $('#stopNotificationsDiv').hide();
+        }
+
+        return false;
+    }
+
+    function saveIndividualSubscription(type) {
+
+        CodePlex.UpdateProgress.show();
+        $('#subscriptionContent').load('',
+                                       { deliveryStatus: type },
+                                       function () { CodePlex.UpdateProgress.hide(); });
+        suppressUnsavedData();
+        
+        return false;
+    }
+
+    function showSubscriptionSelection() {
+        OpenDialog('#subscriptionSettings', true, '37em');
+        
+        // Remove unsaved data prompt from subscription items
+        // this should not make the page dirty.
+        $('input, textarea, select', '#subscriptionSettings').unbind("change");
+
+        return false;
+    }
+
+    function closeSubscriptionDialog() {
+        OpenDialog('#subscriptionSettings', false);
+        adjustEmailLinkPlacement();
+        adjustSubscriptionLinkPlacement();
+        return false;
+    }
+    
+    function adjustSubscriptionLinkPlacement() {
+        var $changeSubLink = $("#ShowSubscriptionSelection"),
+            $changeSubPlaceHolder = $("#ShowSubscriptionSelectionPlaceHolder"),
+            currentOffsetLeft,
+            offsetLeft,
+            currentOffsetTop,
+            offsetTop,
+            ieOffset = $.browser.msie ? 1 : 0,
+            lineHeight = parseInt($changeSubPlaceHolder.css('line-height'));
+        
+        if ($changeSubLink.length != 0 && $changeSubPlaceHolder.length != 0) {
+            currentOffsetLeft = parseInt($changeSubLink.css("left")),
+            offsetLeft = $changeSubPlaceHolder.offset().left - $changeSubLink.offset().left + 1, // the +1 just centers the text between the parens more evenly
+            
+            currentOffsetTop = parseInt($changeSubLink.css("top")),
+            offsetTop = $changeSubPlaceHolder.offset().top - $changeSubLink.offset().top - lineHeight + 5, // the -5 just centers the text between the parens more evenly
+
+            $changeSubLink.css("left", currentOffsetLeft + offsetLeft + ieOffset);
+            $changeSubLink.css("top", currentOffsetTop + offsetTop + ieOffset);
+        }
+    }
+
+    function adjustEmailLinkPlacement() {
+        var $changeEmailLink = $("#ChangeProfileLink"),
+            $changeEmailPlaceHolder = $("#ChangeProfileLinkPlaceHolder"),
+            currentOffsetLeft,
+            offsetLeft,
+            currentOffsetTop,
+            offsetTop,
+            ieOffset = $.browser.msie ? 1 : 0,
+            lineHeight = parseInt($changeEmailPlaceHolder.css('line-height'));
+
+        if ($changeEmailLink.length != 0 && $changeEmailPlaceHolder.length != 0) {
+            currentOffsetLeft = parseInt($changeEmailLink.css("left")),
+            offsetLeft = $changeEmailPlaceHolder.offset().left - $changeEmailLink.offset().left + 1, // the +1 just centers the text between the parens more evenly
+            
+            currentOffsetTop = parseInt($changeEmailLink.css("top")),
+            offsetTop = $changeEmailPlaceHolder.offset().top - $changeEmailLink.offset().top - lineHeight + 5, // the -5 just centers the text between the parens more evenly
+
+            $changeEmailLink.css("left", currentOffsetLeft + offsetLeft + ieOffset);
+            $changeEmailLink.css("top", currentOffsetTop + offsetTop + ieOffset);
+        }
+    }
+    
+    function showStopNotifications() {
+        $('#stopNotificationsDiv').hide();
+        $('#StopNotificationsCheckBox').attr('checked', false);
+    }
+
+    var currentToolTipHeight = null;
+
+    function showUnsubscribeToolTip() {
+      if (currentToolTipHeight == null) { currentToolTipHeight = $('#unsubscribeToolTip').height()+30 };
+      var toolTip = $('#unsubscribeToolTipImage');
+      var msg = $('#unsubscribeToolTip')[0];
+
+      $('[id=unsubscribeToolTip]').dialog('destroy').remove();
+      $(msg).dialog({
+        height: currentToolTipHeight, 
+        width: 275, 
+        position: [toolTip.offset().left-$(window).scrollLeft()+10, toolTip.offset().top-$(window).scrollTop()+10],
+        dialogClass: 'tooltip',
+        open: function() { $('#unsubscribeToolTip').show(); } 
+      });
+
+    }
+
+    function hideUnsubscribeToolTip() {
+        $('[id=unsubscribeToolTip]').dialog('destroy');
+    }
+</script>
+
+<div id="subscriptionContent">
+    
+	<p><div class="email_icon">e-mail icon</div>Release notifications</p>
+	<p><a id="subscriptionSignIn" href="https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fmonogame.codeplex.com%2freleases%2fview%2f102870">Sign in</a> to display notification settings.</p>
+
+<div id="subscriptionSettings" class="modal" style="display:none; width: 250px;">
+    <div class="row">
+        <h2> <a href="javascript:return false;" class="close">X</a></h2>
+    </div>
+    <div class="modal_info">
+        <p></p>
+        <div class="ModalDialogContentBody">
+            <div style="margin-top: 2px; margin-bottom: 5px;">
+                Email me 
+                <span id="changeEmailAddressLink">
+                    <a target="_blank"  href="/site/users/update?FocusElement=EmailAddressForChange">
+                        (change e-mail address)
+                    </a>
+                </span>
+            </div>
+            <ul class="button_wrap">
+                <li>
+                    <input type="radio" id="EmailSubscription_EachNewIssue" name="EmailSubscriptionTypeList" value="1" onclick="$('#stopNotificationsDiv').hide()"  />
+                    <label for="EmailSubscription_EachNewIssue"></label>
+                </li>
+                <li>
+                    <input type="radio" id="EmailSubscription_DailyDigest" name="EmailSubscriptionTypeList" value="2" onclick="$('#stopNotificationsDiv').hide()"  />
+                    <label for="EmailSubscription_DailyDigest"></label>
+                </li>
+                <li id="unsubscribeSection" style="display:none;"><input type="radio" id="EmailSubscription_Unsubscribe" name="EmailSubscriptionTypeList" value="0" onclick="$('#stopNotificationsDiv').show()" checked="checked" /><label for="EmailSubscription_Unsubscribe">Unsubscribe</label></li>
+            </ul>
+            
+            <div class="ClearBoth"></div>
+            <div id="stopNotificationsDiv" style="display:none;overflow:hidden;margin-top:4px;" class="EmailSubscriptionCheck">
+                <div style="float: left; width:24px;">
+                <input id="StopNotificationsCheckBox" name="StopNotificationsCheckBox" type="checkbox" value="true" /><input name="StopNotificationsCheckBox" type="hidden" value="false" />
+                </div>
+                <div style="float: left;">
+                <label for="StopNotificationsCheckBox">
+                    Also stop notifications for <i>individual</i> issue(s) I subscribed to.
+                    <img id="unsubscribeToolTipImage" src="http://i3.codeplex.com/Images/v20266/helpicon.png" onmouseover="showUnsubscribeToolTip()" onmouseout="hideUnsubscribeToolTip()" />
+                </label>
+                </div>
+                <div id="unsubscribeToolTip" style="display: none;">
+                
+                </div>
+            </div>
+        </div>
+        <div class="modal_buttons">
+            <input id="CancelButton" type="button" value="Cancel" class="cancel" onclick="return closeSubscriptionDialog()"/>
+            <input id="SaveButton" type="button" value="Save" class="ok" onclick="saveSubscriptionData();" />
+        </div>
+        <div class="ClearBoth"></div>
+    </div>
+    <input type="hidden" id="callingComponent"/>
+</div>
+
+<input type="hidden" name="SelectedSubscriptionItem" value="0" />
+
+<script>
+    $(document).ready(function () {
+        adjustEmailLinkPlacement();
+        adjustSubscriptionLinkPlacement();
+    });
+</script>
+
+</div>
+</div>
+
+        
+                
+                <div class="clear"></div>
+                
+                <div id="footer">
+                    <div class="row">
+                        <hr />
+                        <ul>
+                            <li>© 2006-2013 Microsoft</li>
+                            <li><a href="http://www.codeplex.com/site/help">Get Help</a></li>
+                            <li><a href="/site/legal/privacy">Privacy Statement</a></li>
+                            <li><a href="http://www.codeplex.com/site/legal/terms">Terms of Use</a></li>
+                            <li><a href="http://www.codeplex.com/site/legal/conduct">Code of Conduct</a></li>
+                            <li><a href="http://www.lakequincy.com" target="_blank">Advertise With Us</a></li>
+                            <li>Version 3.12.2013.20266</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+
+</html>
