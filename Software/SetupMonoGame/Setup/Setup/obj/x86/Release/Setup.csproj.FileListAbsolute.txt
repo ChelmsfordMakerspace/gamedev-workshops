@@ -8,3 +8,13 @@ D:\GameDevWorkshop\Setup\Setup\obj\x86\Release\Setup.csproj.GenerateResource.Cac
 D:\GameDevWorkshop\Setup\Setup\obj\x86\Release\Setup.exe
 D:\GameDevWorkshop\Setup\Setup\obj\x86\Release\Setup.pdb
 D:\GameDevWorkshop\Setup\Setup\obj\x86\Release\Setup.csprojResolveAssemblyReference.cache
+D:\Github Repositorys\gamedev-workshops\Software\SetupMonoGame\Setup\Setup\bin\Release\Setup.exe.config
+D:\Github Repositorys\gamedev-workshops\Software\SetupMonoGame\Setup\Setup\obj\x86\Release\Setup.exe
+D:\Github Repositorys\gamedev-workshops\Software\SetupMonoGame\Setup\Setup\obj\x86\Release\Setup.pdb
+D:\Github Repositorys\gamedev-workshops\Software\SetupMonoGame\Setup\Setup\bin\Release\install.ico
+D:\Github Repositorys\gamedev-workshops\Software\SetupMonoGame\Setup\Setup\bin\Release\Setup.exe
+D:\Github Repositorys\gamedev-workshops\Software\SetupMonoGame\Setup\Setup\bin\Release\Setup.pdb
+D:\Github Repositorys\gamedev-workshops\Software\SetupMonoGame\Setup\Setup\obj\x86\Release\Setup.csprojResolveAssemblyReference.cache
+D:\Github Repositorys\gamedev-workshops\Software\SetupMonoGame\Setup\Setup\obj\x86\Release\Setup.MainForm.resources
+D:\Github Repositorys\gamedev-workshops\Software\SetupMonoGame\Setup\Setup\obj\x86\Release\Setup.Properties.Resources.resources
+D:\Github Repositorys\gamedev-workshops\Software\SetupMonoGame\Setup\Setup\obj\x86\Release\Setup.csproj.GenerateResource.Cache

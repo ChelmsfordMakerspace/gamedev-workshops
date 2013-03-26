@@ -20,18 +20,6 @@ namespace Setup
             InitializeComponent();
         }
 
-        private void textBox_Locations_Projects_Layout(object sender, LayoutEventArgs e)
-        {
-            textBox_Locations_Projects.Text = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\CMSGameDevProjects";
-        }
-
-        private void button_browse_project_Click(object sender, EventArgs e)
-        {
-            folderBrowserDialog.RootFolder = Environment.SpecialFolder.MyDocuments;
-            if (folderBrowserDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
-                textBox_Locations_Projects.Text = folderBrowserDialog.SelectedPath;
-
-        }
 
         private void button_Cancel_Click(object sender, EventArgs e)
         {
@@ -103,25 +91,31 @@ namespace Setup
                             }
 
                             //DotNet3.5
-                            CurrentTask = "Installing DotNet3.5";
-                            installerWorker.ReportProgress(60);
-                            p = Process.Start(@"Data\setup.exe");
-                            while (!p.HasExited) { System.Threading.Thread.Sleep(500); }
-                            
+                            if (!checkBox_dataonly.Checked)
+                            {
+                                CurrentTask = "Installing DotNet3.5";
+                                installerWorker.ReportProgress(60);
+                                p = Process.Start(@"Data\setup.exe");
+                                while (!p.HasExited) { System.Threading.Thread.Sleep(500); }
+                            }
                             
                             //GTK-Sharp
-                            CurrentTask = "Installing GTK Sharp";
-                            installerWorker.ReportProgress(75);
-                            p = Process.Start(@"msiexec", @" /i Data\setup1.msi /qn ");
-                            while (!p.HasExited) { System.Threading.Thread.Sleep(500); }
-                            
+                            if (!checkBox_dataonly.Checked)
+                            {
+                                CurrentTask = "Installing GTK Sharp";
+                                installerWorker.ReportProgress(75);
+                                p = Process.Start(@"msiexec", @" /i Data\setup1.msi /qn ");
+                                while (!p.HasExited) { System.Threading.Thread.Sleep(500); }
+                            }
 
                             //MonoDevelop
-                            CurrentTask = "Installing MonoDevelop";
-                            installerWorker.ReportProgress(90);
-                            p = Process.Start(@"msiexec",@" /i Data\setup2.msi /qn ");
-                            while (!p.HasExited) { System.Threading.Thread.Sleep(500); }
-
+                            if (!checkBox_dataonly.Checked)
+                            {
+                                CurrentTask = "Installing MonoDevelop";
+                                installerWorker.ReportProgress(90);
+                                p = Process.Start(@"msiexec", @" /i Data\setup2.msi /qn ");
+                                while (!p.HasExited) { System.Threading.Thread.Sleep(500); }
+                            }
                             installerWorker.ReportProgress(100);
                             break;
                         case "GAME":
@@ -141,11 +135,13 @@ namespace Setup
                             }
 
                             //OpenTK
-                            CurrentTask = "Installing OpenTK";
-                            installerWorker.ReportProgress(25);
-                            p = Process.Start(@"Data\setup.exe");
-                            while (!p.HasExited) { System.Threading.Thread.Sleep(500); }
-
+                            if (!checkBox_dataonly.Checked)
+                            {
+                                CurrentTask = "Installing OpenTK";
+                                installerWorker.ReportProgress(25);
+                                p = Process.Start(@"Data\setup.exe");
+                                while (!p.HasExited) { System.Threading.Thread.Sleep(500); }
+                            }
                             installerWorker.ReportProgress(50);
 
                             if (checkBox_FilesFromInternet.Checked)
@@ -224,13 +220,6 @@ namespace Setup
 
         private void treeView_Software_Layout(object sender, LayoutEventArgs e)
         {
-            //Check to see if installed.
-            treeView_Software.Nodes[1].BackColor = Color.DarkGray;
-            if (!treeView_Software.Nodes[1].Text.Contains("(Not Ready Yet)"))
-            {
-                treeView_Software.Nodes[1].Text += "(Not Ready Yet)";
-            }
-           
             foreach (TreeNode item in treeView_Software.Nodes[0].Nodes)
             {
                 switch (item.Tag.ToString())

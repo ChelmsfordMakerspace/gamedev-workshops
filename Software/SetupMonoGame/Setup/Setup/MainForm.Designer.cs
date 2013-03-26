@@ -34,15 +34,9 @@
             System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Software", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode2});
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Space Invaders");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Side Scroller");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Cheatsheet and Documentation");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Project Files", new System.Windows.Forms.TreeNode[] {
-            treeNode4,
-            treeNode5,
-            treeNode6});
             this.tableLayoutPanel_Master = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel_Header = new System.Windows.Forms.TableLayoutPanel();
+            this.pictureBox_Logo = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel_Buttons = new System.Windows.Forms.TableLayoutPanel();
             this.button_Install = new System.Windows.Forms.Button();
@@ -57,14 +51,12 @@
             this.groupBox_locations = new System.Windows.Forms.GroupBox();
             this.checkBox_Keep = new System.Windows.Forms.CheckBox();
             this.checkBox_FilesFromInternet = new System.Windows.Forms.CheckBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox_Locations_Projects = new System.Windows.Forms.TextBox();
-            this.button_browse_project = new System.Windows.Forms.Button();
             this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.installerWorker = new System.ComponentModel.BackgroundWorker();
-            this.pictureBox_Logo = new System.Windows.Forms.PictureBox();
+            this.checkBox_dataonly = new System.Windows.Forms.CheckBox();
             this.tableLayoutPanel_Master.SuspendLayout();
             this.tableLayoutPanel_Header.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Logo)).BeginInit();
             this.tableLayoutPanel_Buttons.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer_Install)).BeginInit();
             this.splitContainer_Install.Panel1.SuspendLayout();
@@ -72,7 +64,6 @@
             this.splitContainer_Install.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox_locations.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Logo)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel_Master
@@ -108,6 +99,16 @@
             this.tableLayoutPanel_Header.Size = new System.Drawing.Size(781, 48);
             this.tableLayoutPanel_Header.TabIndex = 0;
             // 
+            // pictureBox_Logo
+            // 
+            this.pictureBox_Logo.Image = global::Setup.Properties.Resources.logo1;
+            this.pictureBox_Logo.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox_Logo.Name = "pictureBox_Logo";
+            this.pictureBox_Logo.Size = new System.Drawing.Size(178, 42);
+            this.pictureBox_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_Logo.TabIndex = 0;
+            this.pictureBox_Logo.TabStop = false;
+            // 
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -124,7 +125,7 @@
             this.tableLayoutPanel_Buttons.ColumnCount = 3;
             this.tableLayoutPanel_Buttons.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 89.67213F));
             this.tableLayoutPanel_Buttons.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.32787F));
-            this.tableLayoutPanel_Buttons.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 94F));
+            this.tableLayoutPanel_Buttons.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 95F));
             this.tableLayoutPanel_Buttons.Controls.Add(this.button_Install, 2, 1);
             this.tableLayoutPanel_Buttons.Controls.Add(this.button_Cancel, 1, 1);
             this.tableLayoutPanel_Buttons.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -139,7 +140,7 @@
             // button_Install
             // 
             this.button_Install.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button_Install.Location = new System.Drawing.Point(689, 14);
+            this.button_Install.Location = new System.Drawing.Point(688, 14);
             this.button_Install.Name = "button_Install";
             this.button_Install.Size = new System.Drawing.Size(75, 23);
             this.button_Install.TabIndex = 0;
@@ -150,7 +151,7 @@
             // button_Cancel
             // 
             this.button_Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button_Cancel.Location = new System.Drawing.Point(619, 14);
+            this.button_Cancel.Location = new System.Drawing.Point(618, 14);
             this.button_Cancel.Name = "button_Cancel";
             this.button_Cancel.Size = new System.Drawing.Size(64, 23);
             this.button_Cancel.TabIndex = 1;
@@ -202,20 +203,8 @@
             treeNode2.Text = "Mono Game";
             treeNode3.Name = "Node_Software";
             treeNode3.Text = "Software";
-            treeNode4.Name = "Node_SI";
-            treeNode4.Tag = "Pro_1";
-            treeNode4.Text = "Space Invaders";
-            treeNode5.Name = "Node_SS";
-            treeNode5.Tag = "Pro_2";
-            treeNode5.Text = "Side Scroller";
-            treeNode6.Name = "Node_Doc";
-            treeNode6.Tag = "Doc";
-            treeNode6.Text = "Cheatsheet and Documentation";
-            treeNode7.Name = "Node_Project";
-            treeNode7.Text = "Project Files";
             this.treeView_Software.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode3,
-            treeNode7});
+            treeNode3});
             this.treeView_Software.Size = new System.Drawing.Size(528, 199);
             this.treeView_Software.TabIndex = 10;
             this.treeView_Software.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.treeView_Software_NodeMouseClick);
@@ -260,11 +249,9 @@
             // 
             // groupBox_locations
             // 
+            this.groupBox_locations.Controls.Add(this.checkBox_dataonly);
             this.groupBox_locations.Controls.Add(this.checkBox_Keep);
             this.groupBox_locations.Controls.Add(this.checkBox_FilesFromInternet);
-            this.groupBox_locations.Controls.Add(this.label3);
-            this.groupBox_locations.Controls.Add(this.textBox_Locations_Projects);
-            this.groupBox_locations.Controls.Add(this.button_browse_project);
             this.groupBox_locations.Location = new System.Drawing.Point(3, 208);
             this.groupBox_locations.Name = "groupBox_locations";
             this.groupBox_locations.Size = new System.Drawing.Size(523, 93);
@@ -276,7 +263,7 @@
             // 
             this.checkBox_Keep.AutoSize = true;
             this.checkBox_Keep.Enabled = false;
-            this.checkBox_Keep.Location = new System.Drawing.Point(30, 62);
+            this.checkBox_Keep.Location = new System.Drawing.Point(9, 42);
             this.checkBox_Keep.Name = "checkBox_Keep";
             this.checkBox_Keep.Size = new System.Drawing.Size(159, 17);
             this.checkBox_Keep.TabIndex = 9;
@@ -286,40 +273,13 @@
             // checkBox_FilesFromInternet
             // 
             this.checkBox_FilesFromInternet.AutoSize = true;
-            this.checkBox_FilesFromInternet.Location = new System.Drawing.Point(9, 39);
+            this.checkBox_FilesFromInternet.Location = new System.Drawing.Point(9, 19);
             this.checkBox_FilesFromInternet.Name = "checkBox_FilesFromInternet";
             this.checkBox_FilesFromInternet.Size = new System.Drawing.Size(147, 17);
             this.checkBox_FilesFromInternet.TabIndex = 8;
             this.checkBox_FilesFromInternet.Text = "Get Files from the Internet";
             this.checkBox_FilesFromInternet.UseVisualStyleBackColor = true;
             this.checkBox_FilesFromInternet.CheckedChanged += new System.EventHandler(this.checkBox_FilesFromInternet_CheckedChanged);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 16);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Project Files:";
-            // 
-            // textBox_Locations_Projects
-            // 
-            this.textBox_Locations_Projects.Location = new System.Drawing.Point(79, 13);
-            this.textBox_Locations_Projects.Name = "textBox_Locations_Projects";
-            this.textBox_Locations_Projects.Size = new System.Drawing.Size(224, 20);
-            this.textBox_Locations_Projects.TabIndex = 2;
-            this.textBox_Locations_Projects.Layout += new System.Windows.Forms.LayoutEventHandler(this.textBox_Locations_Projects_Layout);
-            // 
-            // button_browse_project
-            // 
-            this.button_browse_project.Location = new System.Drawing.Point(309, 11);
-            this.button_browse_project.Name = "button_browse_project";
-            this.button_browse_project.Size = new System.Drawing.Size(75, 23);
-            this.button_browse_project.TabIndex = 6;
-            this.button_browse_project.Text = "Browse...";
-            this.button_browse_project.UseVisualStyleBackColor = true;
-            this.button_browse_project.Click += new System.EventHandler(this.button_browse_project_Click);
             // 
             // folderBrowserDialog
             // 
@@ -333,15 +293,15 @@
             this.installerWorker.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.UpdateUI);
             this.installerWorker.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.FinishedInstall);
             // 
-            // pictureBox_Logo
+            // checkBox_dataonly
             // 
-            this.pictureBox_Logo.Image = global::Setup.Properties.Resources.logo1;
-            this.pictureBox_Logo.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox_Logo.Name = "pictureBox_Logo";
-            this.pictureBox_Logo.Size = new System.Drawing.Size(178, 42);
-            this.pictureBox_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_Logo.TabIndex = 0;
-            this.pictureBox_Logo.TabStop = false;
+            this.checkBox_dataonly.AutoSize = true;
+            this.checkBox_dataonly.Location = new System.Drawing.Point(9, 65);
+            this.checkBox_dataonly.Name = "checkBox_dataonly";
+            this.checkBox_dataonly.Size = new System.Drawing.Size(130, 17);
+            this.checkBox_dataonly.TabIndex = 10;
+            this.checkBox_dataonly.Text = "Don\'t execute installer";
+            this.checkBox_dataonly.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
@@ -357,6 +317,7 @@
             this.tableLayoutPanel_Master.ResumeLayout(false);
             this.tableLayoutPanel_Header.ResumeLayout(false);
             this.tableLayoutPanel_Header.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Logo)).EndInit();
             this.tableLayoutPanel_Buttons.ResumeLayout(false);
             this.splitContainer_Install.Panel1.ResumeLayout(false);
             this.splitContainer_Install.Panel1.PerformLayout();
@@ -367,7 +328,6 @@
             this.groupBox2.PerformLayout();
             this.groupBox_locations.ResumeLayout(false);
             this.groupBox_locations.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Logo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -389,13 +349,11 @@
         private System.Windows.Forms.ProgressBar progressBar;
         private System.Windows.Forms.GroupBox groupBox_locations;
         private System.Windows.Forms.CheckBox checkBox_FilesFromInternet;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox_Locations_Projects;
-        private System.Windows.Forms.Button button_browse_project;
         private System.Windows.Forms.TreeView treeView_Software;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog;
         private System.ComponentModel.BackgroundWorker installerWorker;
         private System.Windows.Forms.CheckBox checkBox_Keep;
+        private System.Windows.Forms.CheckBox checkBox_dataonly;
     }
 }
 
