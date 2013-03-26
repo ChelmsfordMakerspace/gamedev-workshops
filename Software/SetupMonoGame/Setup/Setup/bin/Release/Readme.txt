@@ -6,6 +6,6 @@
 
 * Navigate to the location of where the setup file resides and click MonoGame.mpack
 
-* Then after a breif loading dialog, close Add-In Manager and click on Start New Solution.. > C# > MonoGame Windows OpenGL Application. Add some details about your new game below and click ok.
+* Then after a brief loading dialog, close Add-In Manager and click on Start New Solution.. > C# > MonoGame Windows OpenGL Application. Add some details about your new game below and click ok.
 
 * Your ready to code :D. Press F5 to test.
